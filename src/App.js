@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+// ============= the api key is here ============
+// api key: ea97938a5ef66faa48c939d30a08769e
 import './App.css';
+import Parent from './components/card';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Parent />
     </div>
   );
 }
